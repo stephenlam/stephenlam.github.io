@@ -1,0 +1,40 @@
+/* normalize */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+a {
+  background-color: transparent;
+}
+img {
+  border-style: none;
+}
+
+/* custom styles */
+body {
+    background: #eeeeee;
+    font-family: Georgia, serif;
+}
+.main {
+    margin: auto;
+    padding: 0 1em;
+}
+.center { text-align: center; }
+.summary {
+    max-width: 30em;
+    margin: auto;
+}
+img {
+    border: 2px solid black;
+    max-width: 100%;
+    height: auto;
+}
+figure { margin: 2em 0; }
+figcaption { font-style: italic; }
