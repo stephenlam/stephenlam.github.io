@@ -5,54 +5,55 @@
 <title>Stephen Lam's Portfolio</title>
 </head>
 <style type="text/css">
-	body {
-		background: #eeeeee;
-		display: flex;
-		justify-content: center;
-	}
-	.main {
-		max-width: 60em;
-	}
-	.fig {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-	}
-	img {
-		border: 2px solid black;
-	}
-	figcaption {
-		font-style: italic;
-	}
+ body {
+     background: #eeeeee;
+     font-family: Georgia, serif;
+ }
+ .main { margin: auto; }
+ .center { text-align: center; }
+ .summary {
+     max-width: 30em;
+     margin: auto;
+ }
+ img {
+     border: 2px solid black;
+     max-width: 100%;
+     height: auto;
+ }
+ figure { margin: 2em 0; }
+ figcaption { font-style: italic; }
 </style>
 <body>
 <div class="main">
-<h1>Prior Work</h1>
+    <div class="center">
+        <h2>Norton Cloud Backup</h2>
+    </div>
+    <div class="summary">
+        <p>This is a single-page application built with responsive web design
+            principles. User data is double-blind encrypted in transit and at
+            rest. You can interact with it directly
+            <a href="https://my.norton.com/extspa/backup">here</a> at the
+            official Norton website if you have a paid subscription.</p>
+    </div>
+    <figure class="center">
+        <img src="docs/assets/nobu1.png" width="950" height="480" alt='missing' />
+        <figcaption>Searching for files by name</figcaption>
+    </figure>
 
-<h2>Norton Cloud Backup</h2>
-<p>This is a single-page application built with responsive web design principles.
-You can interact with it directly <a href="https://my.norton.com/extspa/backup">here</a> at the official Norton website, though you need a paid subscription.</p>
+    <figure class="center">
+        <img src="docs/assets/nobu2.png" width="950" height="480" alt='missing' />
+        <figcaption>Downloading a file</figcaption>
+    </figure>
 
-<figure class="fig">
-	<img src="docs/assets/nobu1.png" width="100%" alt='missing' />
-	<figcaption>Searching for files by name</figcaption>
-</figure>
+    <figure class="center">
+        <img src="docs/assets/nobu3.png" width="950" height="480" alt='missing' />
+        <figcaption>Further filtering by file type category</figcaption>
+    </figure>
 
-<figure class="fig">
-    <img src="docs/assets/nobu2.png" width="100%" alt='missing' />
-    <figcaption>Downloading a file</figcaption>
-</figure>
-
-<figure class="fig">
-    <img src="docs/assets/nobu3.png" width="100%" alt='missing' />
-    <figcaption>Further filtering by file type category</figcaption>
-</figure>
-
-<figure class="fig">
-    <img src="docs/assets/nobu4.png" width="100%" alt='missing' />
-    <figcaption>Japanese UI</figcaption>
-</figure>
+    <figure class="center">
+        <img src="docs/assets/nobu4.png" width="950" height="480" alt='missing' />
+        <figcaption>Japanese UI</figcaption>
+    </figure>
 </div>
-
 </body>
 </html>
